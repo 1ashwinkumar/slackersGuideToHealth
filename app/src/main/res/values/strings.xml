@@ -1,0 +1,305 @@
+<resources>
+
+    <string-array name="workout_levels">
+        <item>Please Select Your Workout level</item>
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+
+    <string name="app_name">Slacker\'s Guide to Health</string>
+    <string name="fitness">Fitness</string>
+    <string name="food">Food</string>
+    <string name="events">Events</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="catchPhrase">
+        \"To understand the heart and mind of a person, look not at what he has already achieved, but at what he aspires to do.\"
+        ~ Kahlil Gibran
+    </string>
+    <string name="calorieCount">Calorie Count</string>
+    <string name="calorieIntake">How many calories would you like to consume?</string>
+    <string name="workoutChoice">Workout Choice</string>
+    <string name="workoutSelect">What Kind Of Workout Would You Like To Do?</string>
+    <string name="gymMembership">Do you have a gym membership already?</string>
+    <string name="membership">If so, enter in the name of your gym, otherwise "no"</string>
+    <string name="activityChoice">Is there a particular activity you want to do today?</string>
+    <string name="activity">If so, enter in the name</string>
+    <string name="video_list_title">Title</string>
+    <string name="DEVELOPER_KEY">AIzaSyAa_BhMdsxI7jmSOmptLnYojxD0DN6VNgY</string>
+    <string name="foodConsDets">Enter in your food consumption details for today</string>
+    <string name="foodAllergy">List any known food allergies you have; say none if you have none</string>
+    <string name="dietPlanDetails">Enter details of your diet plan, if you have one; say "none" if you do not</string>
+    <string name="nextPageFood">Done Entering Info</string>
+    <string name="submitRecipe">Submit Recipe</string>
+    <string name="hardCodeInputCalories">600</string>
+    <string name="hardCodeInputCons">Breakfast: Cereal Bar.\nLunch: Rice, yogurt, pulverized tomato extract.</string>
+    <string name="none">none</string>
+    <string name="hardCodeInputDiet">Trying to eat less fat and more food that helps build strength</string>
+
+    <!-- Food Form -->
+    <string name="recipeTitle">Recipe Title: </string>
+    <string name="recipeCalories">Enter calories level of recipe: </string>
+
+    <!-- Recipe Default: Eggplant Fries -->
+    <string name="foodSuggestion">We recommend that you eat a vegetable dish. Try these 350 calorie
+        eggplant fries; they will help fit more veggies into your diet as a snack instead of as a meal!</string>
+    <string name="recipeIdea">Eggplant Fries</string>
+    <string name="ingredients">1 cup flour, 1/2 tsp carom seeds, 1/2 tsp salt, 1/2 tsp
+    cayenne pepper powder, and a pinch of asafoetida, 5mm raw eggplant slices\n</string>
+    <string name="process">Mix the dry ingredients (everything besides the eggplant pieces)
+    well. Add cold water and make sure no lumps are formed. The batter should have the same consistency as
+    pancake batter. Dip the eggplant pieces into the batter and deep fry in hot oil. Reduce the heat after the
+    eggplant pieces are dropped in oil and fry until they are a beige-ish color. Then remove them and place them
+    on a paper towel to drain excess oil. You can eat them plain, or with ketchup or pulverized cilantro.</string>
+
+    <!-- Recipe 1: Sloppy Joes -->
+    <string name="foodSuggestion1">Starving? Try making some of these 300 calorie sloppy joes.</string>
+    <string name="recipeIdea1">Sloppy Joes</string>
+    <string name="ingredients1">1lb lean ground beef, 1/4 cup chopped onion,  1/2 cup chopped green bell pepper, 1/2 teaspoon garlic powder,
+        1 teaspoon prepared yellow mustard, 3/4 cup ketchup, 3 teaspoons brown sugar</string>
+    <string name="process1">In a medium skillet over medium heat, brown the ground beef, onion, and green pepper; drain off liquids.
+        Stir in the mustard, ketchup, and brown sugar; mix thoroughly. Reduce heat, and simmer for 30 minutes.
+        Season with salt and pepper.</string>
+
+    <!-- Recipe 2: Fish Stew -->
+    <string name="foodSuggestion2">Craving some simple soup comfort food? Try some delicious, 400 calorie seafood soup!</string>
+    <string name="recipeIdea2">Fish Stew</string>
+    <string name="ingredients2">1tbsp olive oil, 1tsp fennel seeds, 2 diced carrots, 2 diced celery sticks, 2 chopped garlic cloves
+    2 sliced leeks, 400g canned chopped tomatoes, 500ml hot fish stock, 2 skinless polic fillets, 85g raw shelled king prawns</string>
+    <string name="process2">Heat the oil in a large pan, add the fennel seeds, carrots, celery and garlic, and cook for 5 mins until
+        starting to soften. Tip in the leeks, tomatoes and stock, season and bring to the boil, then cover and simmer for 15-20 mins until
+        the vegetables are tender and the sauce has thickened and reduced slightly. Add the fish, scatter over the prawns and cook for 2 mins more until
+        lightly cooked. Ladle into bowls and serve with a spoon.</string>
+
+    <!-- Recipe 3: Strawberry Crush -->
+    <string name="foodSuggestion3">Hate dropping your fruit cup everywhere? Just blend it all into a smoothie! This 640 calorie drink is perfect on a hot summer day
+    or a trip to the gym.</string>
+    <string name="recipeIdea3">Strawberry Crush</string>
+    <string name="ingredients3">2 cup frozen straberries, 1/2 cup crushed pineapple, 1/2 cup water, 1 banana, 6tbsp super, 1/4 cup lemon juice,
+    2 tbsp honey</string>
+    <string name="process3">Blend it!</string>
+
+    <!-- Recipe 4: Chocolate Peanut Butter Shake -->
+    <string name="foodSuggestion4">Is it skip day yet? Some high calorie dessert for bulking up, but it still needs to be healthy! Disclaimer: this is 1070 calories!!</string>
+    <string name="recipeIdea4">Chocolate Peanut Butter Shake</string>
+    <string name="ingredients4">1/2 cup heavy whipped cream, 3 tbsp creamy peanut butter, 3 tbsp chocolate syrup, 1.5 cup chocolate ice cream</string>
+    <string name="process4">Blend it!</string>
+
+    <!-- Recipe 5: Donut Muffins -->
+    <string name="foodSuggestion5">Each donut muffin is only 57 calories, but be careful! Don\'t stuff 10 into your mouth in one sitting!</string>
+    <string name="recipeIdea5">Donut Muffins</string>
+    <string name="ingredients5">1 cup white sugar, 1/2 cup melted margarine, 3/4 teaspoon ground nutmeg, 1/2 cup milk, 1 tsp baking powder, 1 cup flour, 1 tsp ground cinnamon</string>
+    <string name="process5">Preheat oven to 375 degrees F (190 degrees C). Grease 24 mini-muffin cups.
+        Mix 1/2 cup sugar, 1/4 cup margarine, and nutmeg in a large bowl. Stir in the milk, then mix in the baking powder and
+        flour until just combined. Fill the prepared mini muffin cups about half full.
+        Bake in the preheated oven until the tops are lightly golden, 15 to 20 minutes. While muffins are baking, place 1/4 cup
+        of melted margarine in a bowl. In a separate bowl, mix together 1/2 cup of sugar with the cinnamon. Remove muffins from
+        their cups, dip each muffin in the melted margarine, and roll in the sugar-cinnamon mixture. Let cool and serve.</string>
+
+    <!-- Recipe 6: Baked Omelet Squares -->
+    <string name="foodSuggestion6">Eggs and ham aren\'t just breakfast foods, but they definitely can be. This is recipe is food for breakfast and lunch at 570 calories.</string>
+    <string name="recipeIdea6">Baked Omelet Squares</string>
+    <string name="ingredients6">1/2 cup butter, 1 small chopped onion, 1.5 shredded cheddar cheese, 1 can sliced mushrooms, 1 can sliced black olives, chopped cooked ham,
+    sliced jalapeno peppers, 12 scrambled eggs, 1/2 cup milk, 1/2 tsp salt and pepper</string>
+    <string name="process6">Preheat oven to 400 degrees F (205 degrees C). Grease a 9x13 inch baking dish.
+        Melt the butter in a skillet over medium heat, and cook the onion until tender. Spread Cheddar cheese in the
+        bottom of the prepared baking dish. Layer with mushrooms, olives, sauteed onion, ham, and jalapeno peppers. In a bowl, scramble eggs
+        together with milk, and season with salt and pepper. Pour egg mixture over ingredients, but do not stir. Bake, uncovered,
+        in the preheated oven for 30 minutes, or until no longer runny in the center and slightly brown on top. Allow to cool slightly,
+        then cut into squares and serve.</string>
+
+    <string name="title_activity_food_form">Recipe Submission Tab</string>
+    <string name="foodExampleIng">50 eggs, 20 rhinos, 3 stalks of broccoli...</string>
+    <string name="foodExRecTitle">Vegan Rhino Cutlet</string>
+    <string name="sixHunna">600</string>
+    <string name="ingredTitle">Ingredients:</string>
+    <string name="processTitle">Process:</string>
+    <string name="foodExInstr">Mash the eggs and the beetles...</string>
+    <string name="submitForm">Submit Form</string>
+
+
+    <!--Events-->
+    <string name="eventsDesc"> Promoting MENTAL, PHYSICAL, and EMOTIONAL health. </string>
+    <string name="events_text">Please enter your state and city.</string>
+    <string name="stateEvents"> Enter 2-letter abbreviation of your state.</string>
+    <string name="stateReq">Abbreviate state</string>
+    <string name="cityEvents">Please enter in the name of your city below.</string>
+    <string name="cityReq">Enter city</string>
+    <string name="mentalHealth">MENTAL HEALTH</string>
+    <string name="physicalHealth">PHYSICAL HEALTH</string>
+    <string name="emotionalHealth">EMOTIONAL HEALTH</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="gender">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight (lbs):</string>
+    <string name="height">Height</string>
+    <string name="goal">Primary Goal</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_sign_up">User Info</string>
+    <string name="title_activity_login">Sign In</string>
+    <string name="goals_label">Goals</string>
+    <string-array name="goals_array">
+        <item>Fitness</item>
+        <item>Food</item>
+        <item>Events</item>
+    </string-array>
+
+    <string name="profile_text">My Profile</string>
+    <string name="settings_text">Settings</string>
+    <string name="logout_text">Logout</string>
+
+    <!-- Strings related to Profile page -->
+    <string name="title_activity_profile">User Profile</string>
+    <string name="username">Username</string>
+    <string name="progress">Progress</string>
+    <string name="badges">Badges</string>
+    <string name="workouts_completed">Workouts Completed</string>
+    <string name="back_button">Back</string>
+    <string name="save_settings_button">Save</string>
+    <string name="sample_nothing"> JUST A TEST </string>
+
+    <!-- Fitness-->
+    <string name="exerciseSteps">Exercise Steps</string>
+    <string name="prevStep">Previous Step</string>
+    <string name="nextStep">Next Step</string>
+    <string name="complete">YOU DID IT!!!</string>
+    <string name="exerciseTitle">Type Exercise Title</string>
+    <string name="fitness_steps_button">Next</string>
+    <string name="descTitle">Description: </string>
+    <string name ="create_fitness_steps_button">Input Steps</string>
+    <string name="descriptionEx">Write Exercise Description Here</string>
+    <string name="descriptBack">Back</string>
+    <string name="stepsDirs">Look At Steps</string>
+    <string name="createWorkout">Create Workout</string>
+    <string name="backView">Back View</string>
+    <string name="frontView">Front View</string>
+    <string name="playlist_workout_button"> Workout Playlist </string>
+    <string name="instructions">Description</string>
+    <string name="create_fitness_title">Create Your Own Fitness</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="fitness_name">Fitness Name</string>
+    <string name="fitness_name_sample"> Push Ups, Wide Grip </string>
+    <string name="body_part"> Body Part </string>
+    <string-array name="spinner_body_part">
+        <item> Abs </item>
+        <item> Back </item>
+        <item> Biceps </item>
+        <item> Calves </item>
+        <item> Chest </item>
+        <item> Glutes </item>
+        <item> Shoulders </item>
+        <item> Quads </item>
+        <item> Triceps </item>
+    </string-array>
+    <string name="num_reps"> Number of Reps (a number): </string>
+    <string name="num_reps_sample"> 5 </string>
+    <string name="instructions_sample">
+        1. Lay flat on the floor. \n
+        2. Place your hands in front of you a little wider than shoulder width. \n
+        3. Push up while keeping you body parallel to the ground. \n
+        4. Go down till your elbows are roughly 90 degrees to the ground. \n
+        5. Continue to repeat this process till you need rest.
+    </string>
+    <string name="photo"> Photo </string>
+    <string name="save_button"> Save </string>
+    <string name="cancel_button"> Cancel </string>
+    <string name="back_fitness_home_button"> Fitness Home </string>
+    
+    <string name="playlist_fitness_title"> Playlist of Workouts </string>
+    <string name="playlist_caution"> NOTE: This list will have up to 10 workouts. </string>
+    <string name="playlistTitle">Playlist Title</string>
+
+    <!-- ChestWorkout Activity: Dips -->
+    <string name="chest_workout_dips"> Dips, Chair Assisted </string>
+    <string name="chest_workout_instructions">
+        \n
+        1. Find a chair and face it forward. \n
+        2. Standing backwards, place your hands on the seat of the chair. \n
+        3. Go down till your elbows are roughly 90 degrees to the chair. \n
+        4. Push yourself up. Repeat this process till you need rest.
+    </string>
+
+    <!-- TricepWorkout Activity: Push Ups, Regular Position -->
+    <string name="tricep_workout_push_ups"> Push Ups, Regular Position </string>
+    <string name="tricep_workout_instructions">
+        \n
+        1. Lay flat on the floor. \n
+        2. Place your hands in front of you at shoulder width. \n
+        3. Push up while keeping you body parallel to the ground. \n
+        4. Go down till your elbows are roughly 90 degrees to the ground. \n
+        5. Continue to repeat this process till you need rest.
+    </string>
+
+    <!-- AbsWorkout Activity: Bicycle Crunches -->
+    <string name="abs_workout_bicycle_crunches"> Bicycle Crunches </string>
+    <string name="abs_workout_instructions">
+        \n
+        1. Lie on your back with your body flat to the ground. \n
+        2. Place your hands behind your head and your elbows flat to the ground. \n
+        3. As you curl forward, make sure your left elbow touches your right knee. \n
+        4. Rotate your body and let your right elbow touch your left knee. \n
+        5. Repeat this process till you need rest.
+    </string>
+
+    <!-- ShoulderWorkout Activity: Handstand Push Up -->
+    <string name="shoulder_workout_handstand_push_up"> Handstand Push Up </string>
+    <string name="shoulder_workout_instructions">
+        \n
+        1. Find a wall or a solid vertical surface. \n
+        2. Using the wall, perform a handstand. \n
+        3. Slowly, go down till your arms are parallel to the ground. \n
+        4. Slowly go back up. \n
+        5. Repeat this process till you need rest.
+    </string>
+
+    <!-- QuadWorkout Activity: Alternating Lunges -->
+    <string name="quads_workout_lunges"> Alternating Lunges </string>
+    <string name="quads_workout_instructions">
+        \n
+        1. Begin in a standing position. \n
+        2. Step forward with your right leg. \n
+        3. Lower your body till the left leg is roughly 90 degrees. \n
+        4. Push yourself up with your right leg. \n
+        5. Repeat the process alternating the legs. Repeat till you need rest.
+    </string>
+
+    <!-- Food Main Page -->
+    <string name="submit_food_recipe_button">Submit A Recipe</string>
+    <string name="get_food_recipe_button">Get A Recipe</string>
+    <string name="food_main_title"> Promoting healthy eating with incentives. </string>
+
+    <!-- Main Page -->
+    <string-array name="quotes">
+        <item>\"Don\'t panic.\"</item>
+        <item>\"Time is an illusion. Lunchtime doubly so.\"</item>
+        <item>\"He felt that his whole life was some kind of dream
+            and he sometimes wondered whose it was and whether they were enjoying it.\"</item>
+        <item>\"I\'d far rather be happy than right any day.\"</item>
+        <item>\"I was created to fulfill a function and I failed in it. I negated my own existence.\"</item>
+        <item>\"If they don\’t keep exercising their lips, he thought, their brains start working.\"</item>
+    </string-array>
+    
+    <string-array name="main_list">
+        <item>Fitness</item>
+        <item>Food</item>
+        <item>Events</item>
+    </string-array>
+</resources>
